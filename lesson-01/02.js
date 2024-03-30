@@ -5,4 +5,9 @@ if(number1 % 2 ===0){
 }else {
     console.log(`${number1}:Это нечетное число`)
 }
+let number = 1;
+console.log(number++);
+console.log(++number);
+console.log(number--);
+console.log(--number);
 
