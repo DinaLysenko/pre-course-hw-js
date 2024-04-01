@@ -1,10 +1,10 @@
 let rule = "Еще не родился тот человек, который поставил бы цель и не смог бы стать программистом.";
 switch (true) {
-    case rule.length <0: {
+    case rule.length < 0: {
         console.log("Все таки нет правил без исключения")
         break;
     }
-    case rule.length >0: {
+    case rule.length > 0: {
         console.log("У меня 100 пудов все получится")
         break;
     }
