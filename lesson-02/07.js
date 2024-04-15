@@ -7,9 +7,9 @@ let passportMarried = {
     }
 };
 let passportMarriedCopy = {
-    married: true,
-    ...passportMarried,
+       ...passportMarried,
     address: {...passportMarried.address}
 }
+passportMarriedCopy.married=true
 console.log(passportMarried)
 console.log(passportMarriedCopy)
