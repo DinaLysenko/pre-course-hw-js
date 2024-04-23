@@ -30,4 +30,5 @@ const users3 = [
         address: '321 Hickory St'
     },
 ];
-console.log(users3.map(u=>({...u, sMarried: true })))
+let marriedUsers=users3.map(u=>({...u, sMarried: true }))
+console.log(marriedUsers)
