@@ -60,4 +60,4 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-console.log(users.filter(el=>el.id%2 !=1))
+console.log(users.filter(el=>el.id%2 ==0))
